@@ -38,11 +38,11 @@ Ensure you have the `pynput`, `time`, and `os` libraries available in your Pytho
 
 Clone the GitHub Repository:
 ```sh
-git clone https://github.com/your-github/YourKeyloggerRepo
+git clone https://github.com/techno-rabit/PRODIGY_CS_04
 ```
 Run:
 ```sh
-python keylogger.py
+python keytrack.py
 ```
 
 ## Contributions
