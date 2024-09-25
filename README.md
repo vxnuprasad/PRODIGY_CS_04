@@ -8,7 +8,7 @@
 <a href="https://prodigyinfotech.dev/"><img title="Website" src="https://img.shields.io/badge/Website-Prodigy--InfoTech-green.svg?style=for-the-badge&logo=sites"></a>
 </p>
 
-# SIMPLE KEYLOGGER
+# KEY TRACK ( Simple Keylogger )
 
 This Python-based keylogger captures and logs keystrokes for a specified duration, saving them to a file with a timestamp. It includes an ethical disclaimer, ensuring users understand the responsible use of the tool.
 
