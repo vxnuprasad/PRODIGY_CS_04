@@ -32,7 +32,7 @@ To use the keylogger, run the script, accept the disclaimer, and input the desir
 
 Ensure you have the `pynput`, `time`, and `os` libraries available in your Python environment.
 
-Install `pynput'
+Install `pynput`
 ```sh
 pip install pynput
 ```
