@@ -21,22 +21,22 @@ banner = """
 """
 print(banner)
 print("----------------------------------------------- Only For Educational Purpose -----------------------------------------------\n")
-print("------------------------------------------------- Keylogger By Techno-rabit -------------------------------------------------\n")
+print("------------------------------------------------ Keylogger By Techno-rabit ------------------------------------------------\n")
 
 # Defines the log file path
 log_file_path = "keylogger_log.txt"
 
 # Displays the disclaimer and get user acceptance
-print("---------------- Keylogger Disclaimer ----------------")
-print("This keylogger program is intended for educational and ethical purposes only.")
-print("Unauthorized use, distribution, or modification of this program is strictly prohibited.")
-print("By using this program, you agree to the following terms and conditions:")
+print("---------------- Keylogger Disclaimer ----------------\n")
+print("This keylogger program is intended for educational and ethical purposes only.\n")
+print("Unauthorized use, distribution, or modification of this program is strictly prohibited.\n")
+print("By using this program, you agree to the following terms and conditions:\n")
 print("\n1. You will only use this program on devices and systems for which you have explicit permission.")
-print("2. You will not use this program to violate any laws, regulations, or terms of service.")
-print("3. You will not use this program to harm, disrupt, or exploit any devices or systems.")
-print("4. You will not use this program to intercept, collect, or store any sensitive or confidential information.")
-print("5. You will not redistribute or sell this program without the express permission of the author.")
-print("6. The author is not responsible for any damages or losses incurred as a result of using this program.")
+print("\n2. You will not use this program to violate any laws, regulations, or terms of service.")
+print("\n3. You will not use this program to harm, disrupt, or exploit any devices or systems.")
+print("\n4. You will not use this program to intercept, collect, or store any sensitive or confidential information.")
+print("\n5. You will not redistribute or sell this program without the express permission of the author.")
+print("\n6. The author is not responsible for any damages or losses incurred as a result of using this program.")
 print("7. You will respect the privacy and security of all devices and systems you interact with using this program.")
 
 accept_terms = input("\nDo you accept these terms and conditions? (y/n): ")
