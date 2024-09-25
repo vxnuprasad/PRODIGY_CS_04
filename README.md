@@ -1,7 +1,7 @@
 # PRODIGY_CS_04
 
 <p align="center">
-<a href="#"><img title="img_1" src="img_1.png"></a>
+<a href="#"><img title="img" src="img.png"></a>
 </p>
 <p align="center">
 <a href="https://github.com/techno-rabit"><img title="Author" src="https://img.shields.io/badge/Author-Vishnu-yellow.svg?style=for-the-badge&logo=github"></a>
@@ -24,10 +24,6 @@ This Python-based keylogger captures and logs keystrokes for a specified duratio
 ### 2. Logging: Captures and logs key presses to a text file with timestamps.
 ### 3. Log File: Provides the path of the saved log file at the end of execution.
 
-<p align="center">
-<a href="#"><img title="img_2" src="img_2.png"></a>
-</p>
-
 ### Usage
 
 To use the keylogger, run the script, accept the disclaimer, and input the desired logging duration.
@@ -36,6 +32,14 @@ To use the keylogger, run the script, accept the disclaimer, and input the desir
 
 Ensure you have the `pynput`, `time`, and `os` libraries available in your Python environment.
 
+Install `pynput'
+```sh
+pip install pynput
+```
+Install `time`
+```sh
+pip install TIME-python
+```
 Clone the GitHub Repository:
 ```sh
 git clone https://github.com/techno-rabit/PRODIGY_CS_04
