@@ -24,11 +24,11 @@ This Python-based keylogger captures and logs keystrokes for a specified duratio
 ### 2. Logging: Captures and logs key presses to a text file with timestamps.
 ### 3. Log File: Provides the path of the saved log file at the end of execution.
 
-### Usage
+## Usage
 
 To use the keylogger, run the script, accept the disclaimer, and input the desired logging duration.
 
-## Requirements
+### Requirements
 
 Ensure you have the `pynput`, `time`, and `os` libraries available in your Python environment.
 
