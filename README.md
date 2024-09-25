@@ -7,6 +7,9 @@
 <a href="https://github.com/techno-rabit"><img title="Author" src="https://img.shields.io/badge/Author-Vishnu-yellow.svg?style=for-the-badge&logo=github"></a>
 <a href="https://prodigyinfotech.dev/"><img title="Website" src="https://img.shields.io/badge/Website-Prodigy--InfoTech-green.svg?style=for-the-badge&logo=sites"></a>
 </p>
+<p align='center'
+<a href="https://github.com/techno-rabit"><img title="Only For" src="https://img.shields.io/badge/Only For Educational Purpose-red.svg?style=for-the-badge&logo="></a>
+</p>
 
 # KEY TRACK ( Simple Keylogger )
 
