@@ -20,8 +20,8 @@ banner = """
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 """
 print(banner)
-print("---------- Only For Educational Purpose ----------")
-print("----- Keylogger By Techno-rabit -----")
+print("----------------------------------------------- Only For Educational Purpose -----------------------------------------------\n")
+print("------------------------------------------------- Keylogger By Techno-rabit -------------------------------------------------\n")
 
 # Defines the log file path
 log_file_path = "keylogger_log.txt"
