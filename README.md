@@ -47,7 +47,7 @@ python keylogger.py
 
 ## Contributions
 
-If you find this tool useful, consider following [your-github](https://github.com/your-github) on GitHub!
+If you find this tool useful, consider following [techno-rabit](https://github.com/techno-rabit) on GitHub!
 
 ## Find Me on:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-YourName-blue?style=for-the-badge&logo=LinkedIn)](https://www.linkedin.com/in/yourname)
