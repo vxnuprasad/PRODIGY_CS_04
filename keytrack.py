@@ -27,7 +27,7 @@ print("------------------------------------------------ Keylogger By Techno-rabi
 log_file_path = "keylogger_log.txt"
 
 # Displays the disclaimer and get user acceptance
-print("---------------- Keylogger Disclaimer ----------------\n")
+print("---------------- [ Keylogger Disclaimer ] ----------------\n")
 print("This keylogger program is intended for educational and ethical purposes only.\n")
 print("Unauthorized use, distribution, or modification of this program is strictly prohibited.\n")
 print("By using this program, you agree to the following terms and conditions:\n")
@@ -37,7 +37,7 @@ print("\n3. You will not use this program to harm, disrupt, or exploit any devic
 print("\n4. You will not use this program to intercept, collect, or store any sensitive or confidential information.")
 print("\n5. You will not redistribute or sell this program without the express permission of the author.")
 print("\n6. The author is not responsible for any damages or losses incurred as a result of using this program.")
-print("7. You will respect the privacy and security of all devices and systems you interact with using this program.")
+print("\n7. You will respect the privacy and security of all devices and systems you interact with using this program.")
 
 accept_terms = input("\nDo you accept these terms and conditions? (y/n): ")
 
