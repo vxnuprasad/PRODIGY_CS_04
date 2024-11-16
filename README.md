@@ -45,7 +45,7 @@ pip install TIME-python
 ```
 Clone the GitHub Repository:
 ```sh
-git clone https://github.com/techno-rabit/PRODIGY_CS_04
+git clone https://github.com/vxnuprasad/PRODIGY_CS_04
 ```
 Run:
 ```sh
